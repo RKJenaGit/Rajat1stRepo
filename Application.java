@@ -32,4 +32,30 @@ public class Application {
         boolean isEven = app.isEven(num);
         System.out.println(num + " is even: " + isEven);
     }
+    #feature202 branch new method added by Rajat on April 2024
+    public class MyClass {
+    
+    // Method with no return value and no parameters
+    public void greet() {
+        System.out.println("Hello, World!");
+    }
+    
+    // Method with return value and parameters
+    public int add(int num1, int num2) {
+        return num1 + num2;
+    }
+    
+    // Main method to call other methods
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();
+        
+        // Call the greet method
+        obj.greet();
+        
+        // Call the add method and print the result
+        int sum = obj.add(5, 7);
+        System.out.println("Sum: " + sum);
+    }
 }
+
+
